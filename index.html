@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Daniels</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav class="position-fixed start-0 end-0 d-none">
+      <div
+        class="container d-flex align-items-center align-content-center justify-content-between py-3 align-content-center"
+      >
+        <h5 class="text-white">SMART LOGIN</h5>
+        <button class="btn btn-outline-warning px-3 py-2 text-white">
+          logout
+        </button>
+      </div>
+    </nav>
+    <section>
+      <div
+        class="container d-flex justify-content-center align-items-center vh-100"
+      >
+        <div
+          class="Welcome d-flex justify-content-center align-items-center d-none"
+        >
+          <p>
+            
+          </p>
+        </div>
+        <div class="login m-auto px-5 py-4 text-center d-block">
+          <h1>Smart Login System</h1>
+          <input class="border border-1 rounded-2 d-none"type="text"id="signName" placeholder="Enter your name"/>
+          <input class="border border-1 rounded-2"type="email"id="signEmail" placeholder="Enter your email"/>
+          <input
+            class="border border-1 rounded-2"
+            type="password"
+            id="signPass"
+            placeholder="Enter your password"
+          />
+          <div class="requiredBox d-none">
+            <span class="text-danger"></span>
+          </div>
+          <button class="btn btn-outline-primary w-100 mt-4 d-block logInButton">Login</button>
+          <button class="btn btn-outline-primary w-100 mt-4 d-none signUpButton">Sign Up</button>
+          <p class="mt-4 text-white d-block showSignUp">Don’t have an account? <span id="signUp">Sign Up</span></p>
+          <p class="mt-4 text-white d-none showSignIn">You have an account? <span id="signIn">Sign In</span></p>
+        </div>
+      </div>
+    </section>
+    <script src="index.js"></script>
+  </body>
+</html>

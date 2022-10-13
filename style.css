@@ -1,0 +1,68 @@
+* {
+  font-family: "Titillium Web", sans-serif;
+}
+body {
+  background-color: #22333c;
+  box-sizing: border-box;
+}
+nav {
+  box-shadow: 0px 10px 20px rgb(24, 24, 24);
+  opacity: 1;
+}
+.Welcome {
+  width: 60%;
+  padding: 30px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0px 10px 20px rgb(24, 24, 24);
+}
+.Welcome p {
+  font-size: 3rem;
+  color: #17a2b8;
+  font-weight: 100;
+}
+.login {
+  width: 70%;
+  margin: auto;
+  box-shadow: 0px 10px 20px rgb(24, 24, 24);
+}
+.login h1 {
+  color: #17a2b8;
+  font-weight: lighter;
+}
+input {
+  margin: 10px 0;
+  padding: 6px 12px;
+  background-color: #22333c;
+  outline: none;
+  border: 1.5px solid white;
+  border-radius: 15px;
+  color: white;
+  width: 100%;
+}
+input::placeholder {
+  color: rgb(211, 205, 205);
+  font-weight: lighter;
+}
+input:focus {
+  border-color: #48d2ee !important ;
+}
+span {
+  cursor: pointer;
+}
+#signIn {
+  cursor: pointer;
+}
+#signIn:hover {
+  text-decoration: underline;
+}
+span:hover {
+  text-decoration: underline;
+}
+.requiredBox span{
+cursor: default;
+}
+.requiredBox span:hover{
+  text-decoration: none;
+}
